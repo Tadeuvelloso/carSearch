@@ -1,6 +1,6 @@
 ###### Poc typeScript:  
-## CarSearch
-# An api to search for cars and store their characteristics.
+# CarSearch
+## An api to search for cars and store their characteristics.
 
 **Contact :** </br>
 <a href="https://www.linkedin.com/in/dev-tadeuvelloso/" target="_blank">
