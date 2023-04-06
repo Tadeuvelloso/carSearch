@@ -14,14 +14,14 @@
 
 ##### Route documentation:
 
->get("/cars")
 ##### Route to pick up all cars.
+>get("/cars")
 
->get("/cars/:carId")
 ##### Route to pick up the car you want.
+>get("/cars/:carId")
 
->post("/cars")
 ##### Route to insert a new car to the list.
+>post("/cars")
 ```
 {
   "model": "ferrari 100",
@@ -34,8 +34,8 @@
 }
 ```
 
->put("/cars/:carId")
 ##### The update route, where the user sends the object with the new characteristics of the car via body and the id via params.
+>put("/cars/:carId")
 ```
 {
   "model": "ferrari f2",
@@ -48,5 +48,5 @@
 }
 ```
 
->delete("/cars/:carId")
 ##### Route to delete an item from the list with the id of the item sent via params
+>delete("/cars/:carId")
