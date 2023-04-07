@@ -8,7 +8,7 @@ const carsRoutes = Router();
 carsRoutes.post("/cars",validationSchema(carSchema), carsControllers.createCar);
 carsRoutes.get("/cars", carsControllers.getAllCars);
 carsRoutes.get("/cars/:id", carsControllers.getCar);
-carsRoutes.put("/cars/:id", carsControllers.updateCar);
+carsRoutes.put("/cars/:id",validationSchema(carSchema), carsControllers.updateCar);
 carsRoutes.delete("/cars/:id", carsControllers.deleteCar);
 
 export default carsRoutes;
